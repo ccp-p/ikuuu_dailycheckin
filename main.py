@@ -8,7 +8,7 @@ passwd = os.environ.get('PASSWD')
 # server酱
 SCKEY = os.environ.get('SCKEY')
 
-host = 'https://ikuuu.pw'
+host = 'https://ikuuu.one'
 login_url = f'{host}/auth/login'
 check_url = f'{host}/user/checkin'
 info_url = f'{host}/user/profile'

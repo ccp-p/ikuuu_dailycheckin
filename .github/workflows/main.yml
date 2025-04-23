@@ -11,6 +11,7 @@ env:
 jobs:
   keepalive-job:
     name: Keepalive Workflow
+    if: github.event_name == 'schedule'
     runs-on: ubuntu-latest
     permissions:
       actions: write
